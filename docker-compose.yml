@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  coreweb:
-    image: ${DOCKER_REGISTRY}coreweb
-    build:
-      context: .
-      dockerfile: CoreWeb/Dockerfile
